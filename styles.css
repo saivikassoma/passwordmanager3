@@ -1,0 +1,176 @@
+body{
+  
+    padding: 0;
+
+    margin-left:2rem;
+}
+h2{
+    color:midnightblue
+}
+#info{
+    margin-left:1rem;
+}
+table{
+   /* border:1.5px solid midnightblue; */
+   margin: 9px;
+   border-collapse: collapse;
+   font-size: large;
+}
+th,td{
+    padding: 7px;
+    border:1.5px solid midnightblue;
+    width: 90px;
+    height:40px;
+    font-family:monospace;
+    margin: 3px;
+    text-align: center;
+}
+td{
+    font-weight: bold;
+    color: rgb(275,56,155)
+}
+ #websitename{
+    margin-left:0px;
+    width:180px;
+    height:25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+#username{
+    margin-left:21px;
+    height:25px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+#password{
+    margin-left:31px;
+    height:25px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+button#create{
+    margin-left:8rem;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    background-color: orange;
+    border: 2px  orange;
+    border-radius: 2rem;
+}
+td button{
+    width:4.4rem;
+    height:1.8rem;
+    border-radius: .5rem;
+    border:2px solid rgb(153,153,153);
+    font-family: 'Poppins sans-serif';
+    font-weight: bold;
+    
+}
+.last{
+    margin-left:7px;
+}
+.new{
+    cursor: pointer;
+}
+div.con{
+  padding:1rem;
+    
+}
+
+/* Media Queries for the responsive ness of the website. */
+@media screen and (min-width:310px) and (max-width:400px){
+    table{
+        margin-right:-9vw;
+        font-size: small;
+    }
+    div#info{
+        margin-left:0.01rem;
+     }
+     td,th{
+        width:1.2rem;
+     }
+     #websitename{
+
+        margin-left:0px;
+        margin-top: 20px;
+        box-sizing: border-box;
+         width: 140px;
+       }
+       #username{
+       margin-left: 20px;
+       width:140px;
+       box-sizing: border-box;
+    
+       }
+       #password{
+        width: 130px;
+        margin-left: 30px;
+        height:24px;
+
+       }
+    .tab{
+        margin-left:-10vw;
+    }
+    td button{
+        text-align:center;
+        width: 2.8rem;
+        font-weight: lighter;
+    }
+}
+@media screen and (min-width:400px) and (max-width:451px){
+    table{
+        margin-right:-9vw;
+         font-size:small;
+    }
+    div#info{
+        margin-left:0.1rem;
+     }
+     td,th{
+        width:1.5rem;
+    }
+    td button{
+        width: 3rem;
+    }
+    .tab{
+        margin-left:-7vw;
+    }
+}
+ @media screen and (min-width:451px) and (max-width:480px){
+    table{
+        margin-right:30px;
+       
+    }
+    div#info{
+        margin-left:0.1rem;
+     }
+     th{
+        width:1rem;
+    }
+    td{
+        width:0.8rem;
+    }
+    td button{
+        width:3rem;
+    }
+    .tab{
+        margin-left:-4.5vw;
+    }
+} 
+@media screen and (min-width:480px) and (max-width:550px){
+    div#info{
+       margin-left:0.5rem;
+    }
+    td,th{
+        width:2rem;
+    }
+    table{
+        margin-left:-4vw;
+        margin-right:-5vw;
+    }
+}
+
